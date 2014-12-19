@@ -48,7 +48,7 @@ namespace GroupSolution
                     lblAccountName.Text = FBclass.GetUserName(Settings1.Default.AccessToken);
                     string imgURL = string.Format("http://graph.facebook.com/{0}/picture", FBclass.GetUserID(Settings1.Default.AccessToken));
                     imgAccount.ImageLocation = imgURL;
-                    btnLogin.Text = "Logged In";
+                    btnLogin.Text = "Logged fuckin In";
                 }
             }
         }
